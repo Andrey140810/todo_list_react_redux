@@ -1,0 +1,29 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.input {
+	width: 100%;
+	padding: 14px 20px;
+	font-size: 16px;
+	border: 2px solid #e1e5e9;
+	border-radius: 8px;
+	background-color: #fff;
+	color: #2c3e50;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	transition: all 0.3s ease;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.input:focus {
+	border-color: #3498db;
+	box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.input::placeholder {
+	color: #95a5a6;
+	font-style: italic;
+}
